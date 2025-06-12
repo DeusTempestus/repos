@@ -1,0 +1,1 @@
+This repository is intended to be a test area or a sandbox repository of random pages I create as I learn the ways of front-end development.
