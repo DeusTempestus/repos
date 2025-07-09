@@ -1,5 +1,105 @@
-* {
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 0;
+  padding: 2rem;
+  font-family:'Times New Roman', Times, serif;
+  background-color: gainsboro;
+}
+
+.content-container {
+  margin: 1rem 1.5rem 1rem 1.5rem;
+  padding: 1rem;
+  
+  border-radius: 20px;
+  background-color:  antiquewhite;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+main {
+  display: flex;
+}
+
+article {
+  padding: 0px;
+  width: 1000px;
+}
+
+section {
   margin: 0;
   padding: 0;
+}
+
+section h3 {
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.test-box {
   outline: 1px solid red;
+}
+
+.test-box-2 {
+  outline: 1px solid blue;
+}
+
+.test-box-3 {
+  outline: 1px solid green;
+}
+
+.page-title, .credits {
+  display: block;
+  text-align: center;
+}
+
+.page-title {
+  margin: 10px auto;
+}
+
+.credits {
+  margin: 10px auto;
+}
+
+.navigation-tab {
+  min-height: 200px;
+}
+
+.nav-container {
+  padding: 20px;
+  position: sticky;
+}
+
+.nav-container p {
+  text-align: center;
+}
+
+.nav-container ul li {
+  list-style: none;
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
 }
